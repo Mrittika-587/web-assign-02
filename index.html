@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Assignment-02</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for cart icon -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-sans">
+
+  <nav class="mt-[13px] mx-4 md:mx-[150px] py-4">
+    <div class="flex justify-between items-center">
+
+      <!-- Logo -->
+      <div>
+        <img src="images/logo.png" alt="Logo" class="h-10" />
+      </div>
+
+      <!-- Nav links + Cart on right -->
+      <div class="hidden md:flex items-center gap-[10px] text-sm">
+
+        <a href="#" class="text-[#252432] font-semibold">Home</a>
+        <a href="#" class="text-[#8987A1] font-semibold">Shop</a>
+        <a href="#" class="text-[#8987A1] font-semibold">About Us</a>
+
+        <a href="#" class="flex items-center gap-1 text-black font-semibold">
+          <i class="fas fa-shopping-cart"></i>
+          <span>Cart ($56)</span>
+        </a>
+      </div>
+
+      <!-- Cart on mobile only -->
+      <div class="flex md:hidden items-center gap-1 text-black font-semibold">
+        <i class="fas fa-shopping-cart"></i>
+        <span>Cart ($56)</span>
+      </div>
+
+    </div>
+  </nav>
+
+</body>
+</html>
